@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            var sorteio;
+            function ordenaArray(a, b){
+               return a-b;
+            }
+            var mega = new Array();
+            for(var i = 0; i<6; i++){
+                do{
+                    sorteio = Math.ceil(Math.random()*60);
+
+                }while(mega.indexOf(sorteio) != -1 );
+                mega.push(sorteio);
+            }
+            alert("SORTEIO DA MEGASSENA\n" + mega.sort(ordenaArray));
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            function setDoisDigitos(tempo){
+                var tempo_formatado;
+                if(tempo<10){
+                    tempo_formatado = "0" + tempo;
+                }else{
+                    tempo_formatado = tempo;
+                }
+                return tempo_formatado;
+            }
+
+            function formataHora(tempo){
+                var tempo_formatado = setDoisDigitos(tempo.getHours()) + ":" +
+                                      setDoisDigitos(tempo.getMinutes()) + ":" +
+                                      setDoisDigitos(tempo.getSeconds());
+                return tempo_formatado;
+            }
+            var agora = new Date();
+            var construct = new Date(1989, 3, 11, 8, 12, 1);    //Ano, mes, dia, hora, min, seg
+            console.log(formataHora(agora));
+            console.log(formataHora(construct));
+            
+            
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

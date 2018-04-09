@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            var nome = "Glauber Carvalho";
+            console.log(nome.toUpperCase());
+            console.log(nome.toLowerCase());
+            
+
+            function primeiraMaiuscula(nome){
+                var nomeCapit = "";
+                nome = nome.toLowerCase();
+
+                var palavra = nome.split(" ");
+                for(var i = 0; i<palavra.length; i++){
+                    nomeCapit += palavra[i].charAt(0).toUpperCase() +               //adiciona a primeira letra maiuscula
+                                 palavra[i].substr(1, palavra[i].lenght) + " " ;    //adiciona o resto
+                }
+                nomeCapit = nomeCapit.substr(0, nomeCapit.length -1 );  //remove o ultimo espaço
+                return nomeCapit
+            }
+            console.log(primeiraMaiuscula("agoRa uM nOme giganTesco pAra colocAr as priMeiras maiuscUlas"));
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

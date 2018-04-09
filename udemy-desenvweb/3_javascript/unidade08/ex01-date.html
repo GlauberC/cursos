@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            function formataDia(data){
+                var data_formatada = dia_semana[data.getDay()] +" - " +
+                                 data.getDate() +"/"+ (data.getMonth()+1) +"/"+ + data.getFullYear();
+                return data_formatada;
+            }
+            dia_semana = ["Domingo",
+                          "Segunda-feira",
+                          "Terca-feira",
+                          "Quarta-feira",
+                          "Quinta-feira",
+                          "Sexta-feira",
+                          "Sabado"
+            ]
+            var agora = new Date();
+            var nascimento = new Date(1989,3,11);  //construtor 11/04/2018
+            console.log(formataDia(agora));
+            console.log(formataDia(nascimento));
+
+
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

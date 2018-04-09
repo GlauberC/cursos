@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso jQuery Fundamental</title> 
+    </head>
+
+    <body>
+    	<nav id="ameDoSul">
+        	<a href="#">Brasil</a>
+            <a href="#">Argentina</a>
+            <a href="#">Uruguai</a>
+            <a href="#">Chile</a>
+            <a href="#">Colombia</a>
+        </nav>
+        <nav id = "europa">
+            <a href="#">Alemanha</a>
+            <a href="#">Portugal</a>
+            <a href="#">Itália</a>
+        </nav>
+
+		<!-- scripts -->
+        <script src="jquery-3.2.1.min.js"></script>
+        <script>    
+        	$( function() {
+				alert("Essa página contém " + $("nav#ameDoSul a").length + " links da América do Sul" + " e " +
+                                              $("nav#europa a").length + " links da Europa ");
+			})
+            $( function(){
+                $("nav a").css("text-decoration", "none").css("display","block");
+                $("nav#ameDoSul a").css("color","red");
+                $("nav#europa a").css("color","green");
+                $("nav a:first").css("background-color","#e4e4e4");
+                $("nav a:even").css("text-transform","uppercase");
+                $("nav a:odd").css("text-transform","lowercase");
+                $("nav a:last").css("text-decoration","line-through");  
+                $("nav a:contains('Alemanha')").css("text-align","center");         
+            })
+
+        </script>       
+    </body>
+</html>

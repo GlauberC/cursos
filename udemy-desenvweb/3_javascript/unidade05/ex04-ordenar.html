@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Aulas de Javascript</title>
+        <script>
+            var salada = new Array();
+            salada[0] = "Uva";
+            salada[1] = "Mamão";
+            salada[2] = "Pêra";
+            salada[3] = "Maçã";
+
+            salada.sort();
+            console.log(salada);
+
+            function ordenarNumeros(a,b){
+                return a-b;         //Compara o proximo elemento ao anterior
+            }
+
+            var megasena = new Array(15, 45, 57, 02, 32, 14);
+            megasena.sort();        //Ordem de string
+            console.log(megasena);
+            megasena.sort(ordenarNumeros);        //Corrige o problema
+            console.log(megasena);
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
