@@ -1,11 +1,28 @@
-# learn-curso-desenvolvimento-web
-Arquivos do curso completo de desenvolvimento web da plataforma Udemy
+# Curso de desenvolvimento web completo 
+#### Udemy
 
+* 1 - HTML  
+* 2 - CSS  
+* 3 - javascript  
+* 4 - Jquery  
+* 5 - Bootstrap
+* 6 - Ecmascript 6  
 
-
-CURSO 1 - HTML  
-CURSO 2 - CSS  
-CURSO 3 - javascript  
-CURSO 4 - Jquery  
-CURSO 5 - Bootstrap  
+### HTML
+---
+### CSS
+---
+### javascript
+---
+### Jquery
+---
+### Bootstrap
+---
+### Ecmascript 6
+* Unidade 03 - Compilando de ES5 para ES6
+* Unidade 04 - Começando a programar em ES6
+* Unidade 05 - Funções e Objetos
+* Unidade 06 - Classes
+* Unidade 07 - Para onde ir a partir desse ponto?
+---
 
