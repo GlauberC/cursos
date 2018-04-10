@@ -3,7 +3,17 @@
         <title>Curso de EcmaScript 6.0</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.min.js"></script>
         <script type="text/babel">
+            const NASCIMENTO = 1989;
+            //var NASCIMENTO = 1940; //Duplicação de constante
+            console.log(NASCIMENTO);
 
+            function calcularIdade(anoAtual) {
+                //var NASCIMENTO = 2000;      //em escopos diferentes Não da erro
+                //console.log(NASCIMENTO);
+                return anoAtual - NASCIMENTO;
+            }
+            console.log(calcularIdade(2018))
+            //const NASCIMENTO = 1989; // Não há hoisting
         </script>
     </head>
     <body>

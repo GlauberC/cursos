@@ -3,8 +3,11 @@
         <title>Curso de EcmaScript 6.0</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.min.js"></script>
         <script type="text/babel">
-            
+            var citricas = ["laranja", "tangerina", "limao"];
+            var rosacea = ["maca", "pera"];
+            var salada = ["banana", "uva", ...citricas,  "mamao", ...rosacea, "abacate"]; //Junta os outros arrays nesse array
 
+            console.log(salada);
         </script>
     </head>
     <body>
