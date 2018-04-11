@@ -3,7 +3,6 @@
 * Unidade 04 - Começando a programar em ES6
 * Unidade 05 - Funções e Objetos
 * Unidade 06 - Classes
-* Unidade 07 - Para onde ir a partir desse ponto?
 
 ### Unidade 03
 * Babel.js
@@ -13,7 +12,7 @@
 * E2 - **let** - Permite usar escopo local em funções
 * E3 - Mais uso do **let** em um loop
 * E4 - **const** para criar constantes
-* E5 - **Concatenar** sem usar Aspas, usando a crase
+* E5 - **Concatenar** sem usar Aspas, usando a crase **`${nome_variavel}`**
 * E6 - utilizando **...** é possível fazer um **split** de um array dentro de outro array 
 ---
 ### Unidade 05
@@ -26,3 +25,7 @@
 * E7 - Extrair valor de um **object** usando array como nome de variável (**Destructuring Assignment**)
 * E8 - **Generator** e **itarator** usando **function\*** e **next**
 * E9 - Mais exercícios de **next**
+---
+### Unidade 06
+* E1 - Criando classes com **Class**,seus **constructor** e chamando usando o **this**
+* E2 - Trabalhando com Herança usando **extends** e **super()**
