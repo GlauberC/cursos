@@ -3,7 +3,20 @@
         <title>Curso de EcmaScript 6.0</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.min.js"></script>
         <script type="text/babel">
-        
+
+            var jogador = {
+                nome: "Messi",
+                habilidades: ["chutar", "driblar", "correr", "fazer gols"],
+                escreverHabilidades: function () {
+                    //console.log(this.nome); // Aqui funciona
+                    var _this = this;
+                    this.habilidades.forEach(function(skill){
+                        //console.log(this.nome + "eh craque em " + skill); // Aqui não funciona, pois já estou numa função mais profunda
+                        console.log(_this.nome + "eh craque em " + skill);
+                    })
+                }
+            }
+            jogador.escreverHabilidades();
 
         </script>
     </head>

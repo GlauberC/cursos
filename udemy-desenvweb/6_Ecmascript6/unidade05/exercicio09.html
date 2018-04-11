@@ -5,9 +5,48 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser-polyfill.js"></script>
 
         <script type="text/babel">
-        
-            
 
+            //Cria função geradora
+            function* baterNoLiquidficador(ing){
+                for(var i = 0; i<ing.length; i++){
+                    yield ing[i];
+                }
+            }
+
+            //Cria array de ingredientes
+            var ingredientes = baterNoLiquidficador(["Leite","Banana","Nescau","Aveia"]);
+
+            //Faz intervalo para adição de ingredientes
+            var fazerVitamina = setInterval(function(){
+                //Passa para o proximo
+                var vitamina = ingredientes.next();
+
+
+                if(vitamina.done){
+                    clearInterval(fazerVitamina);
+                    console.log("Acabou, sua vitamina esta pronta")
+                }else{
+                    console.log(vitamina.value);
+                }
+            }, 1000)
+
+            /*
+            function* contar(){
+                for(var i = 0; i <10; i++){
+                    yield i;
+                }  
+            }
+
+            var numero = contar();
+            var intervaloConta = setInterval(function(){
+                var contando = numero.next();
+                if(contando.done){
+                    console.log("Cansei de contar");
+                }else{
+                    console.log(contando.value);
+                }
+            },1000);
+            */
         </script>
     </head>
     <body>

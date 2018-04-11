@@ -15,4 +15,14 @@
 * E4 - **const** para criar constantes
 * E5 - **Concatenar** sem usar Aspas, usando a crase
 * E6 - utilizando **...** é possível fazer um **split** de um array dentro de outro array 
-
+---
+### Unidade 05
+* E1 - Valores **default** para **parametros** de funções
+* E2 - Método **Repeat** para repetir strings e também como fornercer **parametros** para **variáveis**
+* E3 - Método **=>** para simplificar funções
+* E4 - Usando o **this** para referir ao próprio elemento numa função
+* E5 - Resolvendo o problema de referencia do exercício anterior usando **bind** (Ecmascript 5) e resolvendo utilizando **arrow =>** (Ecmascript 6)
+* E6 - Extrair valor de um **array** usando  **...** e um array como nome de variável (**Destructuring Assignment**)
+* E7 - Extrair valor de um **object** usando array como nome de variável (**Destructuring Assignment**)
+* E8 - **Generator** e **itarator** usando **function\*** e **next**
+* E9 - Mais exercícios de **next**

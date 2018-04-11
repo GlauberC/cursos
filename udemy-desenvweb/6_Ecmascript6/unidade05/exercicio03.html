@@ -4,7 +4,14 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.min.js"></script>
         <script type="text/babel">
         
-
+            /* Forma Antiga
+            var minhaSalada = function(frutas){
+                console.log(frutas);
+            }
+            */
+            //Com Arrow
+            var minhaSalada = (frutas) => console.log(frutas);
+            minhaSalada(["Uva", "Laranja", "Mamao"]);
         </script>
     </head>
     <body>
