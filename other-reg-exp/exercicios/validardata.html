@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<script>
+function validarData(data){
+    //re = /^\d\d\/\d\d\/\d\d/
+    re = /^\d{1,2}\/\d{2}\/\d{2,4}$/
+    if(re.test(data)){
+        console.log(data + " está correta");
+    }else{
+        console.log(data + " está errada");
+    }
+}
+validarData("11/04/1989");
+validarData("11/04/89");
+validarData("2/03/89");
+validarData("221/03/89");
+validarData("a1/03/89");
+validarData("1a/03/89");
+
+</script>
+</head>
+
+<body>
+
+</body>
+
+</html>

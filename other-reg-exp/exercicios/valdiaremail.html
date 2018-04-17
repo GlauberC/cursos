@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<script>
+function validaremail(email){
+    re = /^\w+@\w+\.\w{2,3}/
+    if(re.test(email)){
+        console.log(email + " está correto");
+    }else{
+        console.log(email + " está errado");
+    }
+}
+validaremail("12glauber");
+validaremail("12glauber@gmail.com");
+validaremail("glauber@gmail.com");
+validaremail("glauber@gmail.com.br");
+validaremail("glauber@gmail.br");
+validaremail("glauber");
+validaremail("glauber@gmail");
+
+</script>
+</head>
+
+<body>
+
+</body>
+
+</html>
