@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>function plot</title>
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Bootstrap -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <title>Plotting functions in JavaScript using the function plot library</title>
+    <meta charset="utf-8" />
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+  </head>
+
+  <body>
+    <div id="myFunction"></div>
+  </body onload="plot();">
+
+
+  <main class="container">
+    <div class="rows">
+      <section class="panel panel-info col-lg-6">
+        <h1>Inputs:</h1>
+        <div class="xMin form-group">
+          <label for="xMin">xMin:</label>
+          <input class="form-control" id="xMin" value=-5>
+        </div>
+        <div class="xMax form-group">
+          <label for="xMax">xMax:</label>
+          <input class="form-control" id="xMax" value=5>
+        </div>
+        <div class="yMin form-group">
+          <label for="yMin">yMin:</label>
+          <input class="form-control" id="yMin" value=-3>
+        </div>
+        <div class="yMax form-group">
+          <label for="yMax">yMax:</label>
+          <input class="form-control" id="yMax" value=3>
+        </div>
+        <div class="color form-group">
+          <label for="color">Color:</label>
+          <input class="form-control" id="color" type=color>
+        </div>
+        <div class="func form-group">
+          <label for="func">Function:</label>
+          <input class="form-control" id="func" value="sin(x)">
+        </div>
+        <button class="btn btn-info btn-block" onclick="plot()">Plot Graph</button>
+
+      </section>
+      <section class="graph-section  col-lg-6">
+        <h1>Graph</h1>
+        <div class="graph panel panel-info"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/index.js"></script>
+
+  </html>
+
+
+
+</body>
+
+</html>
