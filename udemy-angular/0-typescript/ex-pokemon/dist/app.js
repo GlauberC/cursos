@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var pokegeral_1 = require("./pokegeral");
+var pokemon_1 = require("./pokemon");
+var p1 = new pokegeral_1.Pokemon("Pikachu");
+var p2 = new pokegeral_1.Pokemon("Bulbassauro");
+var p3 = new pokemon_1.Charizard();
+p1.falar();
+p2.falar();
+p3.falar();
