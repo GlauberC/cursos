@@ -1,0 +1,26 @@
+\documentclass[12pt, a4paper]{article}	%Cria um artigo com tamanho 12pt papel a4 e em 2 colunas
+
+\usepackage[brazilian]{babel}	%Traduz documento para português do brasil
+\usepackage{lipsum}		%adiciona o pacote lipsum
+\title{Este é o título do meu artigo}	%adiciona titulo ao trabalho
+\author{Glauber Carvalho\thanks{Agradeço a minha mãe}}	%Adiciona nome do autor e agradecimentos
+
+\date{\today}	%coloca a data de hoje no seu trabalho
+
+\begin{document}
+	\setlength{\parindent}{2cm}
+	\lipsum[1]
+	\noindent\lipsum[1]
+	\newpage
+	\lipsum[2]
+	\vspace{2cm}
+	Listas de compras: Batata\hspace{1cm}, Feijão\hspace{1cm}, Arroz
+	
+	Esta linha deve ser quebrada aqui\hfill\break a partir desse ponto começa outra linha
+	
+	Esta linha deve ser quebrada aqui\newline a partir desse ponto começa outra linha
+	\\\\
+	Palavra em \textbf{Negrito}, em \textit{itálico} , com \emph{enfase} e \underline{sublinhada}
+	
+		
+\end{document}

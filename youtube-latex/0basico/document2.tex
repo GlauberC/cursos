@@ -1,0 +1,41 @@
+\documentclass[12pt, a4paper, twocolumn]{article}	%Cria um artigo com tamanho 12pt papel a4 e em 2 colunas
+
+\usepackage[brazilian]{babel}	%Traduz documento para português do brasil
+\usepackage{lipsum}		%adiciona o pacote lipsum
+\title{Este é o título do meu artigo}	%adiciona titulo ao trabalho
+\author{Glauber Carvalho\thanks{Agradeço a minha mãe}}	%Adiciona nome do autor e agradecimentos
+
+\date{\today}	%coloca a data de hoje no seu trabalho
+
+\begin{document}
+	\begin{titlepage}
+		\maketitle
+	\end{titlepage}
+	
+	\begin{abstract}
+		\lipsum[1]
+	\end{abstract}
+
+	\section{Primeiro Tema}
+	
+	
+		Este é o texto do meu documento 	
+		
+		2º paragrafo começa aqui depois de dois enters\\ 	
+		3º paragrafo começa aqui depois de duas barras após o segundo paragrafo\newline
+		4º paragrafo começa aqui depois de uma barra newline depois do terceiro paragrafo\par
+		5º paragrafo começa aqui depois de uma barra par depois do quarto paragrafo
+		
+		\begin{center}
+			Texto centralizado
+		\end{center}
+	
+		\begin{flushleft}
+			Alinhamento à esquerda
+		\end{flushleft}
+		
+		\begin{flushright}
+			Alinhamento à direita
+		\end{flushright}
+		
+\end{document}

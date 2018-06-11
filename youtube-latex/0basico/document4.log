@@ -1,0 +1,110 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6700) (preloaded format=pdflatex 2018.6.5)  6 JUN 2018 18:32
+entering extended mode
+**./document4.tex
+(document4.tex
+LaTeX2e <2018-04-01> patch level 5
+Babel <3.20> and hyphenation patterns for 0 language(s) loaded.
+(/home/glauberca/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/home/glauberca/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/glauberca/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2018/05/02 3.20 The Babel package
+
+(/home/glauberca/.miktex/texmfs/install/tex/generic/babel/switch.def
+File: switch.def 2018/05/02 3.20 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/glauberca/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/glauberca/.miktex/texmfs/install/tex/latex/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+(/home/glauberca/.miktex/texmfs/install/tex/generic/babel/babel.def
+File: babel.def 2018/05/02 3.20 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+(/home/glauberca/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count89
+)
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `Portuguese' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 55.
+
+\l@portuges = a dialect from \language0
+\l@brazilian = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+)) (/home/glauberca/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/home/glauberca/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count90
+)
+(document4.aux)
+\openout1 = `document4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+
+(/home/glauberca/.miktex/texmfs/install/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+ [1
+
+{/home/glauberca/.miktex/texmfs/data/pdftex/config/pdftex.map}] (document4.aux)
+ ) 
+Here is how much of TeX's memory you used:
+ 987 strings out of 494892
+ 12978 string characters out of 3178449
+ 171756 words of memory out of 3000000
+ 4662 multiletter control sequences out of 15000+200000
+ 4502 words of font info for 17 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 23i,4n,23p,207b,238s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/glauberca/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx12
+.pk> </home/glauberca/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmsy
+10.pk> </home/glauberca/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cm
+r12.pk>
+Output written on document4.pdf (1 page, 12771 bytes).
+PDF statistics:
+ 49 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
