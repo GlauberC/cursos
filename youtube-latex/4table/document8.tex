@@ -1,0 +1,49 @@
+\documentclass[12pt, a4paperm, openany]{article}	%openany remove a pagina posterior ao índice
+\usepackage[brazilian]{babel}	%Traduz documento para português do brasil
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}		%adiciona o pacote lipsum
+\title{Este é o título do meu artigo}	%adiciona titulo ao trabalho
+\author{Glauber Carvalho\thanks{Agradeço a minha mãe}}	%Adiciona nome do autor e agradecimentos
+
+\date{\today}	%coloca a data de hoje no seu trabalho
+
+
+
+\begin{document}
+	\begin{tabular}{|l||r|c|c|}	%coluna alinhada esq dir centro centro
+		\hline
+		\multicolumn{2}{|c|}{Dados 1}	&	\multicolumn{2}{|c|}{Dados 2}	\\
+		\hline
+		Jogador	&	Posição			&	Gols Marcados	&	Faltas	\\
+		\hline
+		\hline
+		João	&	Atacante		&	5				&	2		\\
+		\hline
+		José	&	Lateral			&	1				&	1		\\
+		\hline
+		Mário	&	CentroAvante	&	4				&	1		\\
+		\hline
+	\end{tabular}
+	\\ 
+	\\
+
+	\begin{tabular}{|c|c|}
+		\hline
+		Alimentos & Nota \\ \hline
+		 Laranja  &  10  \\ \hline
+		   Uva    &  10  \\ \hline
+		  Pinha   &  7   \\ \hline
+	\end{tabular}
+	\\
+	\\
+	
+	\begin{tabular}{lr@{.}l}	% Não há 3 colunas, mas sim um alinhamento com ponto
+		Expressão & \multicolumn{2}{c}{Valor} \\ \hline
+		$\pi$ & 3 & 1416 \\
+		$\pi^\pi$ & 36 & 46 \\
+		$(\pi^\pi)^\pi$ & 80662 & 7 \\
+		\hline
+	\end{tabular}
+
+		
+\end{document}

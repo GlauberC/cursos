@@ -8,5 +8,5 @@ alt = float(input('Digite a altura da parede: '))
 print(alt)
 area = alt * larg
 metpergal = 2
-print('A área da parede é {:.2f} m², portando é necessario {} galões de tinta'.format(area, area//metpergal + 1))
+print('A área da parede é {:.2f} m², portando é necessario {:.1f} galões de tinta'.format(area, area/metpergal))
 # Se o resultado for exato ele ainda assim adiciona + 1

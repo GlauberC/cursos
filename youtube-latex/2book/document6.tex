@@ -1,0 +1,42 @@
+\documentclass[12pt, a4paperm, openany]{book}	%openany remove a pagina posterior ao índice
+\usepackage[brazilian]{babel}	%Traduz documento para português do brasil
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}		%adiciona o pacote lipsum
+\title{Este é o título do meu artigo}	%adiciona titulo ao trabalho
+\author{Glauber Carvalho\thanks{Agradeço a minha mãe}}	%Adiciona nome do autor e agradecimentos
+
+\date{\today}	%coloca a data de hoje no seu trabalho
+
+
+
+\begin{document}
+	\addcontentsline{toc}{chapter}{Introdução} % Adiciona à introdução
+	\renewcommand{\contentsname}{Índice} %Troca Sumário por Índice
+	\tableofcontents
+	\part{Primeira Grande Parte}
+		\chapter*{Introdução} % * Faz ela perder o status de capitulo 
+			\lipsum
+			
+		\chapter{Primeiro Capítulo}
+			\lipsum
+			\section{Primeiro Teste}
+				\lipsum[1]
+				
+			\section{Segundo Teste}
+				\subsection{Sub Teste}
+					\subsubsection{Sub Sub Teste}
+						\lipsum[1]
+						\paragraph{Primeiro Paragrafo}
+							\lipsum[1]
+						\subparagraph{Segundo Paragro}
+							\lipsum[1]
+						
+			
+	\part{Segunda Grande Parte}
+		\chapter{Mais Trabalho}
+			\lipsum
+		\appendix
+			\chapter{Conclusão}
+				\lipsum
+		
+\end{document}

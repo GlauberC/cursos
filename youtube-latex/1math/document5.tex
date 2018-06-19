@@ -1,0 +1,43 @@
+\documentclass[12pt, a4paper]{article}	%Cria um artigo com tamanho 12pt papel a4 e em 2 colunas
+
+\usepackage[brazilian]{babel}	%Traduz documento para português do brasil
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}		%adiciona o pacote lipsum
+\title{Este é o título do meu artigo}	%adiciona titulo ao trabalho
+\author{Glauber Carvalho\thanks{Agradeço a minha mãe}}	%Adiciona nome do autor e agradecimentos
+
+\date{\today}	%coloca a data de hoje no seu trabalho
+
+\newtheorem{teorema}{Teorema}[section]	% Segue as mesmas definições da sessão
+\newtheorem{definicao}[teorema]{Definição} % Segue as mesmas definições dos teoremas
+\newtheorem{proposicao}{Proposição}[section] % Segue as mesmas definições da sessão mas diferente do teorema e da definição
+
+\begin{document}
+	\section{Primeira Parte}
+	\begin{teorema}
+		Todo quadrado tem quatro ângulos retos
+	\end{teorema}
+	\begin{teorema}
+		Todo triângulo tem três lados
+	\end{teorema}
+	\begin{definicao}
+		Um quadrado é um poligono de quatro lados.
+	\end{definicao}
+	\begin{proposicao}[Pentágono] % Apelido
+		Um pentagono tem cinco lados
+	\end{proposicao}
+
+
+	\section{Segunda Parte}
+	\begin{teorema}
+		Todo quadrado tem quatro ângulos retos
+	\end{teorema}
+	\begin{teorema}
+		Todo triângulo tem três lados
+	\end{teorema}
+	\begin{definicao}
+	Um quadrado é um poligono de quatro lados.
+	\end{definicao}
+	
+		
+\end{document}
